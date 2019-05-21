@@ -4,7 +4,7 @@ bigIP_backendScan is a tool that can be used to scan internal IP:Port used in a 
 
 It exploit a weakness in the default configuration of F5 BigIP land-balancer that make BigIP write in a encoded way IP:port of the server on which a session is assigned inside a lad-balancer pool. This information can be decoded by the client to know which port and internal IP are used.
 
-This article expose more details about this subject : http://www.information-security.fr/bigip_backendscan-cookies-bigip-et-fuite-dinformation/
+This article expose more details about this subject : https://ogma-sec.fr/bigip_backendscan-cookies-bigip-et-fuite-dinformation/
 
 ##How to use it
 
